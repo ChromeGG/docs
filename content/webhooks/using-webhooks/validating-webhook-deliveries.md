@@ -173,7 +173,7 @@ function hexToBytes(hex) {
 
 For example, you can define the following `verify_signature` function and call it when you receive a webhook payload:
 
-```javascript copy
+```typescript copy
 import * as crypto from "crypto";
 
 const WEBHOOK_SECRET: string = process.env.WEBHOOK_SECRET;
